@@ -1,0 +1,40 @@
+{
+  "contact": {
+    "firstname": "",
+    "lastname": "",
+    "phone": "",
+    "email": "",
+    "address1": "",
+    "address2": "",
+    "city": "",
+    "state": "",
+    "zip": "",
+    "relocate": "yes"
+  },
+  "experience": [
+    {
+      "title": "",
+      "company": "",
+      "location": "",
+      "start": "",
+      "end": "",
+      "notes": "",
+      "points": [
+        "",
+        ""
+      ]
+    },
+    {
+      "title": "",
+      "company": "",
+      "location": "",
+      "start": "",
+      "end": "",
+      "notes": "",
+      "points": [
+        "",
+        ""
+      ]
+    }
+  ]
+}
