@@ -24,8 +24,9 @@ function spaceSplit(str) {
   return array
 }
 
+const userString = ""
 readline.question(`Enter a single string of characters to iterate:\n`, (ustr) => {
-  const userString = ustr
+  userString = ustr
   readline.close()
 })
 
