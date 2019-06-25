@@ -29,5 +29,5 @@ readline.question(`Enter a single string of characters to iterate:\n`, (ustr) =>
   readline.close()
 })
 
-console.log(`Iterating ${spaceSplit(ustr)}...\n\n`)
-console.log(combinations(spaceSplit(ustr)))
+console.log(`Iterating ${spaceSplit(userString)}...\n\n`)
+console.log(combinations(spaceSplit(userString)))
