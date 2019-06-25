@@ -23,8 +23,7 @@ function spaceSplit(str) {
 }
 
 readline.question(`Enter a single string of characters to iterate:\n`, (ustr) => {
-  console.log(`Iterating ${ustr}...\n`)
-  //console.log(combinations(ustr))
-  console.log(spaceSplit(ustr))
+  console.log(`Iterating ${spaceSplit(ustr)}...\n\n`)
+  console.log(combinations(spaceSplit(ustr)))
   readline.close()
 })
