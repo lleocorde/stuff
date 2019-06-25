@@ -12,3 +12,6 @@ function combinations(str) {
     }
     return fn("", str, []);
 }
+
+var usrString = window.prompt('Enter a single string of characters to iterate:\n');
+console.log(combinations(usrString));
