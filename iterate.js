@@ -13,5 +13,13 @@ function combinations(str) {
     return fn("", str, []);
 }
 
-var usrString = window.prompt('Enter a single string of characters to iterate:\n');
-console.log(combinations(usrString));
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+})
+
+readline.question(`Enter a single string of characters to iterate:\n`, (ustr) => {
+  console.log(`Iterating ${ustr}...\n`)
+  console.log(combinations(ustr))
+  readline.close()
+})
