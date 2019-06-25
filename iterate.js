@@ -19,7 +19,9 @@ const readline = require('readline').createInterface({
 })
 
 function spaceSplit(str) {
-  return str.split(" ")
+  var array = []
+  array = str.split(" ")
+  return array
 }
 
 readline.question(`Enter a single string of characters to iterate:\n`, (ustr) => {
