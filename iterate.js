@@ -18,8 +18,13 @@ const readline = require('readline').createInterface({
   output: process.stdout
 })
 
+function spaceSplit(str) {
+  return str.split(" ")
+}
+
 readline.question(`Enter a single string of characters to iterate:\n`, (ustr) => {
   console.log(`Iterating ${ustr}...\n`)
   console.log(combinations(ustr))
+  console.log(spaceSplit(ustr))
   readline.close()
 })
